@@ -87,12 +87,16 @@ import Bankingheader from './components/Banking/Bankinghedaer'
 import { EmployeeProvider } from "./Pages/context/EmployeeContext";
 import { ItemsProvider } from "./Pages/context/ItemsContext";
 import Signup from './Login/Signup';
+import ClickSpark from "./components/ClickSpark";
+
 
 function App() {
   return (
     <EmployeeProvider>
+
       <Router>
         <FloatingReviewBox />
+        <ClickSpark />
 
         <Routes>
           <Route path="/" element={<Home />} />
