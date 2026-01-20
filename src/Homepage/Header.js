@@ -17,7 +17,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
 import { useNavigate } from 'react-router-dom';
-import { keyframes } from "@mui/system";
+
 import logo from '../Assets/logo.png';
 
 const Header = () => {
