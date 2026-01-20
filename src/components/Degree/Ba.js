@@ -48,7 +48,7 @@ const Class1 = () => {
     const navigate = useNavigate();
     const theme = useTheme();
     const isSmDown = useMediaQuery(theme.breakpoints.down("sm")); // <= sm
-    const isMdUp = useMediaQuery(theme.breakpoints.up("md")); // >= md
+   
 
     const [openShareIndex, setOpenShareIndex] = useState(null);
     const [selectedBoard, setSelectedBoard] = useState("1st Year");
