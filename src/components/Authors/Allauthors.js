@@ -7,7 +7,7 @@ import {
     Checkbox,
     FormControlLabel,
     IconButton,
-    Divider,
+   
     Box,
     Dialog,
     AppBar,
